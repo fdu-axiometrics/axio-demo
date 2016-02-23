@@ -1,0 +1,39 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "description": "Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvdonovan/Axio-Poc.git"
+  },
+  "author": "G.Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvdonovan/Axio-Poc/issues"
+  },
+  "homepage": "https://github.com/gvdonovan/Axio-Poc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "connect-modrewrite": "^0.8.2",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-karma": "0.0.5",
+    "gulp-order": "^1.1.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "karma-ie-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.7",
+    "require-dir": "^0.3.0",
+    "wiredep": "^3.0.0"
+  },
+  "dependencies": {}
+}

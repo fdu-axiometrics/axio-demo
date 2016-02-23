@@ -1,0 +1,14 @@
+<div class="jumbotron text-center">
+    <h1>{{vm.title}}</h1>
+    <p>There is no place like home...greg</p>
+
+    <button class="btn btn-default" ng-click="vm.clickMe()">Click Me</button>
+    <div>You have clicked {{vm.counter}} times.</div>
+
+    <div>
+        <h1>You have following users</h1>
+    </div>
+    <div>
+        <p ng-repeat="user in vm.users">{{user}}</p>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="jumbotron text-center">
+    <h1>{{vm.title}}</h1>
+    <p>Administrators welcome...</p>
+</div>
+
+<div class="container">
+    <form novalidate>
+        <h1>Rent-a-Car, eh?</h1>
+        <formly-form model="vm.rental" fields="vm.rentalFields" form="vm.rentalForm">
+            <button type="submit" class="btn btn-primary" ng-disabled="vm.rentalForm.$invalid">Submit</button>
+        </formly-form>
+    </form>
+</div>
+

@@ -1,0 +1,17 @@
+{
+  "name": "Poc",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-mocks": "~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "~0.2.15",
+    "angular-sanitize": "~1.4.8",
+    "toastr": "~2.1.2",
+    "moment": "~2.10.6",
+    "components-font-awesome": "~4.5.0",
+    "angular-formly": "~7.3.9",
+    "angular-formly-templates-bootstrap": "~6.2.0",
+    "api-check": "~7.5.5"
+  }
+}
